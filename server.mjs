@@ -7,7 +7,7 @@ const port = 3000; // or any other port you prefer
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 // Initialize Bhashini with your authentication details
-bhashini.auth("<MY_API_KEY>", "<MY_USER_ID>", "MY_REFERENCE_KEY_ID");
+bhashini.auth("19b5bb01f7-62f4-4f15-b44b-70d239346aba", "7fb267e2817549a08395ff1c1a507e72", "ipwpNI5NedpvExBQk0Rnp3ZVZrjfho065rGXql_Kr85NAmgnKOIGg0uKlic4IwWL");
 
 // Middleware to parse JSON requests
 app.use(express.json());
